@@ -5,24 +5,15 @@
 #
 #----------------------------------------------------------------------------
 #
-# Daniel Woolsey
-# Skeleton Code Append v1.0.1
+# main.py
+#
+# appends to original exam code
 #
 # Points of Information
 #   - List doesn't start as a , uses "None" to start as a 1st term 
 #   - Original code uses log if statements for returning strings with numerical values for rank and suit
-#   
-#--------------------------------changelog-----------------------------------
-# 1) Menu doesnt reset score after any key is pressed
-# 2) Capitals accepted through entire code (finally)
-# 3) Simplified version of the GetRank and GetSuit functions using dictionaries
-# 4) Use of a bubble sort via temp variable for recent score system (by AQA's standards)
-# 5) Clears screen in command line Python for pretty program
-# 6) Additions allow for game to be played lower or higher - chosen as gameMode
-# 7) Tests for length of users name being > 10 alphanumeric characters
-# 8) No points given if cards are of the same rank
-# 9) Added lives system - user starts with 3 before the game can end 
-#----------------------------------------------------------------------------
+
+
 import random, os, sys
 
 NO_OF_RECENT_SCORES = 3
